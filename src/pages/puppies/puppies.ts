@@ -15,12 +15,20 @@ import { PuppiesService } from '../../services/puppies.service';
   templateUrl: 'puppies.html',
 })
 export class PuppiesPage {
+  puppies : Array<PuppyModel> = new Array<PuppyModel>();
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams,
+    public puppiesService: PuppiesService
+  ) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad PuppiesPage');
+  ionViewWillEnter() {
+    this.puppiesService.getPuppies()
+    .subscribe(data => {
+      this.puppies = data.puppies
+    });
   }
 
 }

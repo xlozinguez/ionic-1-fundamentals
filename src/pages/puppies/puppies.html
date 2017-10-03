@@ -15,7 +15,15 @@
 
 </ion-header>
 
+<ion-content class="card-background-page">
 
-<ion-content padding>
-  This page is for puppies!
+  <ion-card class="puppy-card" *ngFor="let puppy of puppies">
+    <ion-card-header>
+      <h2 class="puppy-name">{{ puppy.name }}</h2>
+    </ion-card-header>
+    <ion-card-content>
+        <img src="{{ puppy.pic }}"/>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
