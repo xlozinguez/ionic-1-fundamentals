@@ -1,3 +1,4 @@
+import { PuppiesPage } from './../pages/puppies/puppies';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -15,7 +16,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    PuppiesPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage
+    ListPage,
+    PuppiesPage
   ],
   providers: [
     StatusBar,
