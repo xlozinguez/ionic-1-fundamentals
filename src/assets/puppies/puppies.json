@@ -4,43 +4,50 @@
       "id": "A",
       "name": "Boxy",
       "breed": "Boxer",
-      "pic": "/assets/puppies/pics/box.jpg"
+      "pic": "/assets/puppies/pics/box.jpg",
+      "likes": 31
     },
     {
       "id": "B",
       "name": "Charly",
       "breed": "King Charles",
-      "pic": "/assets/puppies/pics/charles.jpg"
+      "pic": "/assets/puppies/pics/charles.jpg",
+      "likes": 43
     },
     {
       "id": "C",
       "name": "Husk",
       "breed": "Husky",
-      "pic": "/assets/puppies/pics/husk.jpg"
+      "pic": "/assets/puppies/pics/husk.jpg",
+      "likes": 20
     },
     {
       "id": "D",
       "name": "Ozzy",
       "breed": "Australian Shepherd",
-      "pic": "/assets/puppies/pics/oz.jpg"
+      "pic": "/assets/puppies/pics/oz.jpg",
+      "likes": 12
     },
     {
       "id": "E",
       "name": "Puggy",
       "breed": "Pug",
-      "pic": "/assets/puppies/pics/pug.jpg"
+      "pic": "/assets/puppies/pics/pug.jpg",
+      "likes": 93
     },
     {
       "id": "F",
       "name": "Wrinkly",
       "breed": "English Bulldog",
-      "pic": "/assets/puppies/pics/wrinkle.jpg"
+      "pic": "/assets/puppies/pics/wrinkle.jpg",
+      "likes": 45
     },
     {
       "id": "G",
       "name": "Yawny",
       "breed": "Shiba Inu",
-      "pic": "/assets/puppies/pics/yawn.jpg"
+      "pic": "/assets/puppies/pics/yawn.jpg",
+      "likes": 33
     }
   ]
 }

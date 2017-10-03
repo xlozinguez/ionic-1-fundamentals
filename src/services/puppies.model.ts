@@ -3,4 +3,5 @@ export class PuppyModel {
   name: string;
   breed: string;
   pic: string;
+  likes: number;
 }

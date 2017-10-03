@@ -31,4 +31,8 @@ export class PuppiesPage {
     });
   }
 
+  likePuppy(puppy: PuppyModel) {
+    puppy.likes ++;
+  }
+
 }
