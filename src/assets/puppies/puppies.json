@@ -1,0 +1,46 @@
+{
+  "puppies": [
+    {
+      "id": "A",
+      "name": "Boxy",
+      "breed": "Boxer",
+      "pic": "/assets/puppies/pics/box.jpg"
+    },
+    {
+      "id": "B",
+      "name": "Charly",
+      "breed": "King Charles",
+      "pic": "/assets/puppies/pics/charles.jpg"
+    },
+    {
+      "id": "C",
+      "name": "Husk",
+      "breed": "Husky",
+      "pic": "/assets/puppies/pics/husk.jpg"
+    },
+    {
+      "id": "D",
+      "name": "Ozzy",
+      "breed": "Australian Shepherd",
+      "pic": "/assets/puppies/pics/oz.jpg"
+    },
+    {
+      "id": "E",
+      "name": "Puggy",
+      "breed": "Pug",
+      "pic": "/assets/puppies/pics/pug.jpg"
+    },
+    {
+      "id": "F",
+      "name": "Wrinkly",
+      "breed": "English Bulldog",
+      "pic": "/assets/puppies/pics/wrinkle.jpg"
+    },
+    {
+      "id": "G",
+      "name": "Yawny",
+      "breed": "Shiba Inu",
+      "pic": "/assets/puppies/pics/yawn.jpg"
+    }
+  ]
+}

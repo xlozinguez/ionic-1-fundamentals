@@ -1,5 +1,7 @@
+import { PuppyModel } from '../../services/puppies.model';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
+import { PuppiesService } from '../../services/puppies.service';
 
 /**
  * Generated class for the PuppiesPage page.
